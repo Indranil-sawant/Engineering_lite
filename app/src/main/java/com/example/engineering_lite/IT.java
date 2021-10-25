@@ -17,16 +17,19 @@ public class IT extends AppCompatActivity {
 
     }
     public void OnFE(View view){
-        openWebURL("https://drive.google.com/drive/folders/1V08BFM-TcSujrc-VJMmG3Yq1iBk951eW?usp=sharing");
+        openWebURL("https://drive.google.com/drive/folders/1lUCvrattjEzuKWddQTkfoDQMeQ23Gq-q?usp=sharing");
     }
     public void OnSE(View view){
-        openWebURL("");
+        openWebURL("https://drive.google.com/drive/folders/1l1TtTbh3oDrBjlbYxfhk559yhp6JZwjP?usp=sharing");
     }
     public void OnTE(View view){
-        openWebURL("");
+        openWebURL("https://drive.google.com/drive/folders/1cvdFKcAqdkuSvNGN_oBHuvgBWE81LHRo?usp=sharing");
     }
     public void OnBE(View view){
-        openWebURL("");
+        openWebURL("https://drive.google.com/drive/folders/1-A_DZAstAkWhkjFAXwHwIlg17ZM88JaK?usp=sharing");
+    }
+    public void OnQP(View view){
+        openWebURL("https://drive.google.com/drive/folders/1GoO8G0ks87WgP_Eeag4Hhq6V74cAE_GI?usp=sharing");
     }
     public void openWebURL( String inURL )
     { Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse( inURL ) );

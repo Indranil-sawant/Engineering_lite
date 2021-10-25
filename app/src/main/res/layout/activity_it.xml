@@ -7,6 +7,7 @@
     android:background="#345B63"
     android:textAlignment="center"
     tools:context=".branch">
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="280dp"
@@ -14,11 +15,13 @@
         android:layout_marginTop="64dp"
         android:text="Welcome IT  Students Please select the Semester"
         android:textAlignment="center"
+        android:textColor="#D4ECDD"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
@@ -51,29 +54,33 @@
         android:layout_width="291dp"
         android:layout_height="67dp"
         android:layout_marginTop="28dp"
-        android:onClick="OnBE"
+        android:onClick="OnTE"
         android:text="TE ( SEM V and VI )"
         app:layout_constraintEnd_toEndOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
+
     <Button
         android:id="@+id/button6"
         android:layout_width="288dp"
         android:layout_height="67dp"
         android:layout_marginTop="28dp"
+        android:onClick="OnBE"
         android:text="BE ( SEM VII and VIII )"
         app:layout_constraintEnd_toEndOf="@+id/button5"
         app:layout_constraintStart_toStartOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button5"/>
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
     <Button
         android:id="@+id/button7"
         android:layout_width="286dp"
         android:layout_height="69dp"
         android:layout_marginTop="28dp"
+        android:onClick="OnQP"
         android:text="Question papers"
         app:layout_constraintEnd_toEndOf="@+id/button6"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button6"/>
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
